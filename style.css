@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:20px;
+}
+
+nav{
+    display:inline-block;
+    width:80%;
+}
+
+nav img{
+    width:10%;
+}
+
+nav a{
+    margin:10px;
+    text-decoration:none;
+}
+
+/*
+li{
+    list-style:none;
+}
+*/
+
+.grid{
+    display:grid;
+    grid-template-columns:40% 40%;
+    justify-content:space-around;
+    align-items:start;
+    row-gap:20px;
+}
+
+.grid img{
+    width:100%;
+}
+
+.flex{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    gap:20px;
+}
+
+.flex img{
+    width:250px;
+}
+
+a{
+    color:blue;
+}
